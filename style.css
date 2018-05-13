@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(https://4.bp.blogspot.com/-vnWb_sU4uYE/U5NjfFTg0gI/AAAAAAAInjA/YC-35rOL2M4/s1600/02.jpg);
+    background-size: cover;
+}
+.let{
+    font-size: 20pt;
+    color: gray;
+}
+.hola{
+    width: 450px;
+    margin: 15px 30px;
+    padding: 15px;
+    position: relative;
+    box-sizing: border-box;;
+}
+
+
+input[type=number]:focus {
+    background-color: rgb(136, 218, 177);
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(76, 175, 158);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+input[type=number] { -moz-appearance:textfield; }
+
+input[type=number] {
+    width: 30%;
+    padding: 7px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: transparent;
+    outline: none;
+    color: rgb(60, 255, 0);
+}
