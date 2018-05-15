@@ -8,7 +8,7 @@
     </head>    
 <body> 
     <form id="miformulario" method="post">
-    <section class="let hola">
+    <section class="let1 cuadroPrim">
         <section> 
             <P>Horas trabajadas por dia </P>
             <p><input type="number" name="" id="i1" autofocus></p>
@@ -36,26 +36,26 @@
         
         <section>
             <p>Porcentaje de reuniones, presupuestos...</p>   
-            <p><input type="number" Placeholder="Porcentaje" id="i6"></p>
+            <p><input type="number" Placeholder="sin simbolo '%'" id="i6"></p>
         </section> 
         
         <section>
-            <p>Gastos mensules fijos (luz,agua, telefono, gas, renta, comiadas)</p>   
+            <p>Gastos mensules fijos (luz,agua, telefono)</p>   
             <p><input type="number" name="" id="i7"></p>
         </section>
 
         <section>
-            <p>Jubilacion</p>   
-            <p><input type="number" Placeholder="Porcentaje" id="i8"></p>
+            <p>Porcentaje de jubilacion</p>   
+            <p><input type="number" Placeholder="sin simbolo '%'" id="i8"></p>
         </section> 
 
         <section>
-           <input type="button" name="" value="calcular" onclick="sumar();">
-        </section>
-        <section class="cuadro">
-        <p>Cobra por hora esto: $ <span id="resultado"></span></p>
+           <input class="boton" type="button" name="" value="calcular" onclick="sumar();">
         </section>
     </section>
+        <section class="cuadroSec let2 " >
+        <p class="ValorRes">Cobra por hora esto: $ <span id="resultado"></span></p>
+        </section>
     </form>
     <script type="text/javascript" src="app.js" ></script>
 </body>
