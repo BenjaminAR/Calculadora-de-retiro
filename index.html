@@ -5,55 +5,58 @@
     <meta name="viewport" content="width=device-with, initial-scale=1.0">
     <title>Salario</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="app.js">
     </head>    
-<body class="let hola">  
-    <form>
+<body> 
+    <form id="miformulario"  method="post">
+    <section class="let hola">
         <section> 
             <P>Horas trabajadas por dia </P>
-            <p><input type="number" name="hp"></p>
+            <p><input type="number" name="" id="i1" autofocus></p>
         </section>
 
         <section> 
             <p>Dias a la semana trabajados</p>   
-            <p><input type="number" name="diastra"></p>
+            <p><input type="number" name="" id="i2"></p>
         </section>
         
         <section>
            <p>Cuanto quieres ganar por mes</p>   
-           <p><input type="number" name="ganmes"></p>
+           <p><input type="number" name="" id="i3"></p>
         </section> 
 
         <section>
-                <p>Cuanto quieres ganar por mes</p>   
-                <p><input type="number" name="ganmes"></p>
+            <p>Cuanto dias libres quieres al año</p>   
+            <p><input type="number" name="" id="i4"></p>
         </section>
 
         <section> 
-            <p>Dias a la semana trabajados</p>   
-            <p><input type="number" name="diastra"></p>
+            <p>Cuantos dias de inactividad al año</p>   
+            <p><input type="number" name="" id="i5"></p>
         </section>
         
         <section>
-            <p>Cuanto quieres ganar por mes</p>   
-            <p><input type="number" name="ganmes"></p>
+            <p>Porcentaje de reuniones, presupuestos...</p>   
+            <p><input type="number" Placeholder="Porcentaje" id="i6"></p>
         </section> 
         
         <section>
-                <p>Cuanto quieres ganar por mes</p>   
-                <p><input type="number" name="ganmes"></p>
+            <p>Gastos mensules fijos (luz,agua, telefono, gas, renta, comiadas)</p>   
+            <p><input type="number" name="" id="i7"></p>
         </section>
 
         <section>
-           <p><input type="submit" value="Calcular"></p>
-        </section>
-        
-        <section class="pos">
-            <p><input type="reset" value="-Borrar--"></p>
-        </section>
+            <p>Jubilacion</p>   
+            <p><input type="number" Placeholder="Porcentaje" id="i8"></p>
+        </section> 
 
+        <section>
+           <input type="button" name="" value="calcular" onclick="sumar();">
+        </section>
+        <section class="cuadro">
+        <p>Cobra por hora esto: $ <span ></span></p>
+        </section>
     </section>
     </form>
+    <script type="text/javascript" src="app.js" ></script>
 </body>
 </html>
-    

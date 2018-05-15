@@ -5,46 +5,68 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    background-image: url(https://4.bp.blogspot.com/-vnWb_sU4uYE/U5NjfFTg0gI/AAAAAAAInjA/YC-35rOL2M4/s1600/02.jpg);
+    background-image: url(https://soyemprendedor.co/wp-content/uploads/2018/03/freelance.jpg    );
     background-size: cover;
 }
-.let{
-    font-size: 20pt;
-    color: gray;
-}
-.hola{
-    width: 450px;
-    margin: 15px 30px;
-    padding: 15px;
-    position: relative;
-    box-sizing: border-box;;
-}
-
-
-input[type=number]:focus {
-    background-color: rgb(136, 218, 177);
-}
 input[type=button], input[type=submit], input[type=reset] {
-    background-color: rgb(76, 175, 158);
+    background-color: rgb(194, 61, 61);
     border: none;
     color: white;
     padding: 16px 32px;
     text-decoration: none;
-    margin: 4px 2px;
+    margin: 10px 1px;
     cursor: pointer;
 }
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
 }
-input[type=number] { -moz-appearance:textfield; }
-
 input[type=number] {
-    width: 30%;
+    -moz-appearance:textfield; 
+}
+input[type=number] {
+    width: 50%;
     padding: 7px 10px;
     margin: 8px 0;
     box-sizing: border-box;
     border: transparent;
     outline: none;
-    color: rgb(60, 255, 0);
+    color: rgb(204, 85, 85);
+    font-size: 12pt;
 }
+input[type=number]:focus {
+    background-color: rgba(183, 218, 136, 0.527);
+}
+.let{
+    font-size: 16pt;
+    color: rgba(234, 255, 44);
+}
+
+ .estilo{
+    background-color: rgb(76, 175, 158);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px 1px;
+    cursor: pointer;
+ }
+ .cuadro{
+    width:800px;
+    height:750px;
+    margin: -725px 450px 70px;
+    padding: 15px;
+    background-color: rgba(146, 146, 146, 0.301); 
+    
+    box-sizing: border-box;
+ }
+ .hola{
+    
+    padding: 15px;
+    width:400px;
+    height:750px;
+    margin: 150px 40px 70px;
+    background-color: rgba(146, 146, 146, 0.301); 
+   
+    box-sizing: border-box;
+ }
