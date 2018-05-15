@@ -12,10 +12,11 @@ input[type=button], input[type=submit], input[type=reset] {
     background-color: rgb(194, 61, 61);
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 11px 30px;
     text-decoration: none;
     margin: 10px 1px;
     cursor: pointer;
+    border-radius: 10%;
 }
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
@@ -26,13 +27,14 @@ input[type=number] {
 }
 input[type=number] {
     width: 50%;
-    padding: 7px 10px;
+    padding: 7px 8px;
     margin: 8px 0;
     box-sizing: border-box;
     border: transparent;
     outline: none;
     color: rgb(204, 85, 85);
     font-size: 12pt;
+    border-radius: 50px;
 }
 input[type=number]:focus {
     background-color: rgba(183, 218, 136, 0.527);
@@ -52,21 +54,20 @@ input[type=number]:focus {
     cursor: pointer;
  }
  .cuadro{
-    width:800px;
-    height:750px;
-    margin: -725px 450px 70px;
-    padding: 15px;
+    padding: 17px;
+    width: 500px;
+    height:770px;
+    margin: -758px 450px 70px;
     background-color: rgba(146, 146, 146, 0.301); 
-    
     box-sizing: border-box;
+    position: relative;
  }
  .hola{
-    
-    padding: 15px;
+    padding: 17px;
     width:400px;
-    height:750px;
+    height:770px;
     margin: 150px 40px 70px;
     background-color: rgba(146, 146, 146, 0.301); 
-   
     box-sizing: border-box;
+    position: relative;
  }

@@ -11,12 +11,11 @@ function sumar(){
     var horasPosibles =  horasTrabDia * diasTrab * 52;
     var horaBasica = salarioBruto / horasPosibles;
     var horasNoTrabajadas = diasLibresMes * horasTrabDia + diasLibres * horasTrabDia;
-    var TiempoAdmini = (porcentajeJuntas/100) * (horasPosibles - horasNoTrabajadas);
-    var gastosFijos = gastosMen * 12 ;
-    var precioExtra = horasNoTrabajadas + TiempoAdmini + gastosFijos;
-    var horasEfectivas = horasPosibles - horasNoTrabajadas - TiempoAdmini * horaBasica;
+    var TiempoAdmini = porcentajeJuntas/100 * (horasPosibles - horasNoTrabajadas);
+    var gastosFijos = gastosMen * 12;
+    var precioExtra = (horasNoTrabajadas + TiempoAdmini) * horaBasica + gastosFijos;
+    var horasEfectivas = (horasPosibles - horasNoTrabajadas - TiempoAdmini) * horaBasica;
     var renta = precioExtra / horasEfectivas;
-    var precioPorHora = horaBasica + (horaBasica * renta) + (horaBasica * (jubilacion/100));
-    console.log(precioPorHora);
-    console.log(renta);
+    var precioPorHora = horaBasica + (horaBasica * renta) + (horaBasica *jubilacion/100);
+    document.getElementById('resultado').innerHTML = precioPorHora.toFixed(2);
 }   
